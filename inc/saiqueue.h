@@ -565,10 +565,10 @@ typedef struct _sai_queue_api_t
     sai_get_queue_stats_fn           get_queue_stats;
     sai_get_queue_stats_ext_fn       get_queue_stats_ext;
     sai_clear_queue_stats_fn         clear_queue_stats;
-    sai_bulk_object_create_fn        bulk_create_queues;
-    sai_bulk_object_remove_fn        bulk_remove_queues;
-    sai_bulk_object_set_attribute_fn bulk_set_queues_attribute;
-    sai_bulk_object_get_attribute_fn bulk_get_queues_attribute;
+    sai_bulk_object_create_fn        create_queues;
+    sai_bulk_object_remove_fn        remove_queues;
+    sai_bulk_object_set_attribute_fn set_queues_attribute;
+    sai_bulk_object_get_attribute_fn get_queues_attribute;
 } sai_queue_api_t;
 
 /**
